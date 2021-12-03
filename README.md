@@ -184,17 +184,14 @@ preferred flavour.
   * `garuda`
   * `cachyos`
   * `kali`
-  * `linuxmint-cinnamon`
-  * `linuxmint-mate`
-  * `linuxmint-xfce`
+  * `kdeneon`
+  * `linuxmint`
+  * `nixos`
   * `opensuse`
   * `oraclelinux`
   * `popos`
   * `regolith`
   * `rockylinux`
-  * `nixos-gnome`
-  * `nixos-plasma5`
-  * `nixos-minimal`
   * `zorin`
 
 Or you can download a Linux image and manually create a VM configuration.
@@ -218,6 +215,13 @@ quickemu --vm debian-bullseye.conf
   * Post-install:
     * Install the SPICE agent (`spice-vdagent`) to enable copy/paste and USB redirection.
     * Install the SPICE WebDAV agent (`spice-webdavd`) to enable file sharing.
+
+## BSD Guests
+
+`quickget` also supports:
+
+  * `freebsd`
+  * `openbsd`
 
 ## macOS Guest
 
