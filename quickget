@@ -1366,6 +1366,9 @@ function unattended_windows() {
           <WillShowUI>Never</WillShowUI>
         </ProductKey>
       </UserData>
+      <Diagnostics>
+        <OptIn>false</OptIn>
+      </Diagnostics>
       <DynamicUpdate>
         <Enable>true</Enable>
         <WillShowUI>Never</WillShowUI>
