@@ -223,6 +223,7 @@ function releases_archlinux() {
 
 function releases_cachyos() {
     echo 2021.11.10
+}
 # later refactor these DE variants like languages and avoid the arch ?
 # all these are available with a "nonfree" option too
 function releases_debian() {
